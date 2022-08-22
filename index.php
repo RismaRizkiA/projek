@@ -11,6 +11,7 @@
         <th>Anggota_Kelompok_Id</th>
         <th>Dosen_Id</th>
         <th>Perusahaan_Id</th>
+        <th>Pengolahan</th>
     </tr>
 
     <?php
@@ -22,7 +23,7 @@
         echo"
         <tr>
 
-            <td>$Id</td>
+            <td>$tampil[Id]</td>
             <td>$tampil[Tempat_KP]</td>
             <td>$tampil[Alamat_KP]</td>
             <td>$tampil[Tanggal_mulai]</td>
@@ -33,7 +34,7 @@
             <td>$tampil[Perusahaan_Id]</td>
         </tr>";
 
-        $no=113;
+        $no++;
         
     }
 

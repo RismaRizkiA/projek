@@ -1,3 +1,3 @@
 <?php
-$conn = mysqli_connect('localhost','root'.'','pendaftaran_kp');
+$koneksi = mysqli_connect("localhost","root","","pendaftaran_kp");
 ?>
